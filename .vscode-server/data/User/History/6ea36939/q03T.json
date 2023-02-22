@@ -1,0 +1,15 @@
+{
+    "workbench.colorTheme": "Visual Studio Light",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.editor.untitled.hint": "hidden",
+    "files.autoSave": "afterDelay",
+    "workbench.editor.enablePreview": false,
+    "editor.accessibilitySupport": "on",
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "remote.SSH.path": "C:\\Program Files\\Git\\usr\\bin\\ssh.exe",
+    "remote.SSH.remotePlatform": {
+        "Jenkins": "linux",
+        "Jenkins2": "linux"
+    }
+}

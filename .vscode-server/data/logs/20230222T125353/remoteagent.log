@@ -1,0 +1,21 @@
+2023-02-22 12:53:53.708 [info] Extension host agent started.
+2023-02-22 12:53:53.904 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2023-02-22 12:53:53.927 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2023-02-22 12:53:54.322 [info] [127.0.0.1][3ecfb659][ManagementConnection] New connection established.
+2023-02-22 12:53:54.608 [info] [127.0.0.1][57b6627b][ExtensionHostConnection] New connection established.
+2023-02-22 12:53:54.612 [info] [127.0.0.1][57b6627b][ExtensionHostConnection] <8308> Launched Extension Host Process.
+2023-02-22 12:54:16.014 [info] [127.0.0.1][3ecfb659][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-02-22 12:54:16.046 [info] [127.0.0.1][57b6627b][ExtensionHostConnection] <8308> Extension Host Process exited with code: 0, signal: null.
+2023-02-22 12:54:16.047 [info] Last EH closed, waiting before shutting down
+2023-02-22 12:54:20.834 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-02-22 12:54:20.834 [info] Cancelling previous shutdown timeout
+2023-02-22 12:54:21.783 [info] [127.0.0.1][4ee0c4cf][ManagementConnection] New connection established.
+2023-02-22 12:54:22.175 [info] [127.0.0.1][206358e1][ExtensionHostConnection] New connection established.
+2023-02-22 12:54:22.188 [info] [127.0.0.1][206358e1][ExtensionHostConnection] <8665> Launched Extension Host Process.
+2023-02-22 12:59:20.837 [info] New EH opened, aborting shutdown
+2023-02-22 13:28:07.648 [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/ec2-user)
+2023-02-22 13:28:07.648 [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
+2023-02-22 13:28:07.762 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2023-02-22 13:28:15.175 [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/ec2-user)
+2023-02-22 13:28:15.176 [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
+2023-02-22 13:28:15.283 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

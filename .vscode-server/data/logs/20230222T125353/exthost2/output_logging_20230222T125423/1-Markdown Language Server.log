@@ -1,0 +1,12 @@
+[Trace 13:11:09.750] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/ec2-user/Jenkins-SDET-repo/README2a.md
+[Trace 13:11:09.963] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/ec2-user/Jenkins-SDET-repo/README2a.md
+[Trace 13:11:09.968] Server: connection.languages.diagnostics.on: file:///home/ec2-user/Jenkins-SDET-repo/README2a.md
+[Trace 13:11:09.971] Server: connection.languages.diagnostics.on: file:///home/ec2-user/Jenkins-SDET-repo/README2a.md
+[Trace 13:11:10.128] DocumentSymbolProvider: provideDocumentSymbols — file:///home/ec2-user/Jenkins-SDET-repo/README2a.md 1
+[Debug 13:11:10.128] LinkProvider: compute - file:///home/ec2-user/Jenkins-SDET-repo/README2a.md
+[Debug 13:11:10.330] MdFoldingProvider: provideFoldingRanges — file:///home/ec2-user/Jenkins-SDET-repo/README2a.md 1
+[Debug 13:11:10.331] TableOfContentsProvider: create - file:///home/ec2-user/Jenkins-SDET-repo/README2a.md
+[Trace 13:22:05.381] Server: connection.languages.diagnostics.on: file:///home/ec2-user/Jenkins-SDET-repo/README2a.md
+[Trace 13:28:07.836] VsCodeClientWorkspace: TextDocument.onDidClose: file:///home/ec2-user/Jenkins-SDET-repo/README2a.md
+[Trace 13:28:07.836] VsCodeClientWorkspace: deleteDocument: file:///home/ec2-user/Jenkins-SDET-repo/README2a.md
+[Trace 13:28:07.839] Server: connection.languages.diagnostics.on: file:///home/ec2-user/Jenkins-SDET-repo/README2a.md
