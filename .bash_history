@@ -42,3 +42,6 @@ git push
 https://github.com/grsy-ulucam/jenkins-first-webhook-project.git
     git push --set-upstream grsy 
     git push --set-upstream grsy grsy
+git add .
+git commit -m '24.02.2023'
+git push

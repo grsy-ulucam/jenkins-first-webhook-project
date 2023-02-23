@@ -45,3 +45,20 @@
 2023-02-23 22:42:53.952 [info] [127.0.0.1][b4b62477][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
 2023-02-23 22:42:53.968 [info] [127.0.0.1][3b75b2cf][ExtensionHostConnection] <4872> Extension Host Process exited with code: 0, signal: null.
 2023-02-23 22:42:53.969 [info] Cancelling previous shutdown timeout
+2023-02-23 22:54:30.588 [info] [127.0.0.1][3471f1a5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-02-23 22:54:30.607 [info] [127.0.0.1][fcb65cc8][ExtensionHostConnection] <5463> Extension Host Process exited with code: 0, signal: null.
+2023-02-23 22:54:30.607 [info] Last EH closed, waiting before shutting down
+2023-02-23 22:55:15.675 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-02-23 22:55:15.675 [info] Cancelling previous shutdown timeout
+2023-02-23 22:55:16.731 [info] [127.0.0.1][37aca0ef][ManagementConnection] New connection established.
+2023-02-23 22:55:17.272 [info] [127.0.0.1][10bafa0c][ExtensionHostConnection] New connection established.
+2023-02-23 22:55:17.308 [info] [127.0.0.1][10bafa0c][ExtensionHostConnection] <14279> Launched Extension Host Process.
+2023-02-23 22:56:19.240 [info] [127.0.0.1][37aca0ef][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-02-23 22:56:19.257 [info] [127.0.0.1][10bafa0c][ExtensionHostConnection] <14279> Extension Host Process exited with code: 0, signal: null.
+2023-02-23 22:56:19.258 [info] Cancelling previous shutdown timeout
+2023-02-23 22:56:19.258 [info] Last EH closed, waiting before shutting down
+2023-02-23 22:56:24.463 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-02-23 22:56:24.463 [info] Cancelling previous shutdown timeout
+2023-02-23 22:56:25.456 [info] [127.0.0.1][330cc03d][ManagementConnection] New connection established.
+2023-02-23 22:56:26.328 [info] [127.0.0.1][19481f5b][ExtensionHostConnection] New connection established.
+2023-02-23 22:56:26.348 [info] [127.0.0.1][19481f5b][ExtensionHostConnection] <15002> Launched Extension Host Process.
