@@ -352,3 +352,5 @@ Cancelling previous shutdown timeout
     'fi\n' +
     'exit 0'
 ]
+New EH opened, aborting shutdown
+[23:01:24] New EH opened, aborting shutdown
