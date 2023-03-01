@@ -5,20 +5,18 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to 127.0.0.1:40981 (IPv4)
-Extension host agent listening on 40981
+Server bound to 127.0.0.1:45895 (IPv4)
+Extension host agent listening on 45895
 
-[22:39:18] 
-
-
+[06:25:56] 
 
 
-[22:39:18] Extension host agent started.
-[22:39:18] Migrating extensions from old default profile location file:///home/ec2-user/.vscode-server/data/User/extensions.json
-[22:39:18] Migrated extensions from old default profile location to new location file:///home/ec2-user/.vscode-server/data/User/extensions.json file:///home/ec2-user/.vscode-server/extensions/extensions.json
-[22:39:18] [127.0.0.1][b4b62477][ManagementConnection] New connection established.
-[22:39:19] [127.0.0.1][3b75b2cf][ExtensionHostConnection] New connection established.
-[22:39:19] [127.0.0.1][3b75b2cf][ExtensionHostConnection] <4872> Launched Extension Host Process.
+
+
+[06:25:57] Extension host agent started.
+[06:25:57] [127.0.0.1][00f866df][ManagementConnection] New connection established.
+[06:25:57] [127.0.0.1][b21de884][ExtensionHostConnection] New connection established.
+[06:25:57] [127.0.0.1][b21de884][ExtensionHostConnection] <8289> Launched Extension Host Process.
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
   '-c',
   'wget --version > /dev/null\n' +
@@ -79,13 +77,19 @@ Extension host agent listening on 40981
     'fi\n' +
     'exit 0'
 ]
-Got delay-shutdown request while in shutdown timeout, delaying
-[22:40:10] Got delay-shutdown request while in shutdown timeout, delaying
+[06:26:17] [127.0.0.1][00f866df][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[06:26:17] [127.0.0.1][b21de884][ExtensionHostConnection] <8289> Extension Host Process exited with code: 0, signal: null.
 Cancelling previous shutdown timeout
-[22:40:10] Cancelling previous shutdown timeout
-[22:40:11] [127.0.0.1][3471f1a5][ManagementConnection] New connection established.
-[22:40:12] [127.0.0.1][fcb65cc8][ExtensionHostConnection] New connection established.
-[22:40:12] [127.0.0.1][fcb65cc8][ExtensionHostConnection] <5463> Launched Extension Host Process.
+[06:26:17] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[06:26:17] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[06:26:22] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[06:26:22] Cancelling previous shutdown timeout
+[06:26:23] [127.0.0.1][e05e4c8e][ManagementConnection] New connection established.
+[06:26:23] [127.0.0.1][ea23c49e][ExtensionHostConnection] New connection established.
+[06:26:23] [127.0.0.1][ea23c49e][ExtensionHostConnection] <8667> Launched Extension Host Process.
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
   '-c',
   'wget --version > /dev/null\n' +
@@ -161,7 +165,7 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:526:28)
     at emit (node:internal/child_process:938:14)
     at processTicksAndRejections (node:internal/process/task_queues:84:21)
-[22:40:16] Error [CodeExpectedError]: Could not find pty on pty host
+[06:26:28] Error [CodeExpectedError]: Could not find pty on pty host
     at S.L (/home/ec2-user/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:27:6839)
     at S.updateTitle (/home/ec2-user/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:27:2630)
     at Object.call (/home/ec2-user/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
@@ -190,7 +194,7 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:526:28)
     at emit (node:internal/child_process:938:14)
     at processTicksAndRejections (node:internal/process/task_queues:84:21)
-[22:40:16] Error [CodeExpectedError]: Could not find pty on pty host
+[06:26:28] Error [CodeExpectedError]: Could not find pty on pty host
     at S.L (/home/ec2-user/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:27:6839)
     at S.updateIcon (/home/ec2-user/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:27:2680)
     at Object.call (/home/ec2-user/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
@@ -204,153 +208,3 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:526:28)
     at emit (node:internal/child_process:938:14)
     at processTicksAndRejections (node:internal/process/task_queues:84:21)
-[22:42:53] [127.0.0.1][b4b62477][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[22:42:53] [127.0.0.1][3b75b2cf][ExtensionHostConnection] <4872> Extension Host Process exited with code: 0, signal: null.
-Cancelling previous shutdown timeout
-[22:42:53] Cancelling previous shutdown timeout
-[22:54:30] [127.0.0.1][3471f1a5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[22:54:30] [127.0.0.1][fcb65cc8][ExtensionHostConnection] <5463> Extension Host Process exited with code: 0, signal: null.
-Last EH closed, waiting before shutting down
-[22:54:30] Last EH closed, waiting before shutting down
-Got delay-shutdown request while in shutdown timeout, delaying
-[22:55:15] Got delay-shutdown request while in shutdown timeout, delaying
-Cancelling previous shutdown timeout
-[22:55:15] Cancelling previous shutdown timeout
-[22:55:16] [127.0.0.1][37aca0ef][ManagementConnection] New connection established.
-[22:55:17] [127.0.0.1][10bafa0c][ExtensionHostConnection] New connection established.
-[22:55:17] [127.0.0.1][10bafa0c][ExtensionHostConnection] <14279> Launched Extension Host Process.
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
-  '-c',
-  'wget --version > /dev/null\n' +
-    'if [ $? -eq 0 ]\n' +
-    'then\n' +
-    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
-    'else\n' +
-    '\tcurl --version > /dev/null\n' +
-    '\tif [ $? -eq 0 ]\n' +
-    '\tthen\n' +
-    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
-    '\tfi\n' +
-    'fi\n' +
-    'exit 0'
-]
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
-  '-c',
-  'wget --version > /dev/null\n' +
-    'if [ $? -eq 0 ]\n' +
-    'then\n' +
-    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
-    'else\n' +
-    '\tcurl --version > /dev/null\n' +
-    '\tif [ $? -eq 0 ]\n' +
-    '\tthen\n' +
-    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
-    '\tfi\n' +
-    'fi\n' +
-    'exit 0'
-]
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
-  '-c',
-  'wget --version > /dev/null\n' +
-    'if [ $? -eq 0 ]\n' +
-    'then\n' +
-    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
-    'else\n' +
-    '\tcurl --version > /dev/null\n' +
-    '\tif [ $? -eq 0 ]\n' +
-    '\tthen\n' +
-    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
-    '\tfi\n' +
-    'fi\n' +
-    'exit 0'
-]
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
-  '-c',
-  'wget --version > /dev/null\n' +
-    'if [ $? -eq 0 ]\n' +
-    'then\n' +
-    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
-    'else\n' +
-    '\tcurl --version > /dev/null\n' +
-    '\tif [ $? -eq 0 ]\n' +
-    '\tthen\n' +
-    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
-    '\tfi\n' +
-    'fi\n' +
-    'exit 0'
-]
-[22:56:19] [127.0.0.1][37aca0ef][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[22:56:19] [127.0.0.1][10bafa0c][ExtensionHostConnection] <14279> Extension Host Process exited with code: 0, signal: null.
-Cancelling previous shutdown timeout
-[22:56:19] Cancelling previous shutdown timeout
-Last EH closed, waiting before shutting down
-[22:56:19] Last EH closed, waiting before shutting down
-Got delay-shutdown request while in shutdown timeout, delaying
-[22:56:24] Got delay-shutdown request while in shutdown timeout, delaying
-Cancelling previous shutdown timeout
-[22:56:24] Cancelling previous shutdown timeout
-[22:56:25] [127.0.0.1][330cc03d][ManagementConnection] New connection established.
-[22:56:26] [127.0.0.1][19481f5b][ExtensionHostConnection] New connection established.
-[22:56:26] [127.0.0.1][19481f5b][ExtensionHostConnection] <15002> Launched Extension Host Process.
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
-  '-c',
-  'wget --version > /dev/null\n' +
-    'if [ $? -eq 0 ]\n' +
-    'then\n' +
-    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
-    'else\n' +
-    '\tcurl --version > /dev/null\n' +
-    '\tif [ $? -eq 0 ]\n' +
-    '\tthen\n' +
-    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
-    '\tfi\n' +
-    'fi\n' +
-    'exit 0'
-]
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
-  '-c',
-  'wget --version > /dev/null\n' +
-    'if [ $? -eq 0 ]\n' +
-    'then\n' +
-    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
-    'else\n' +
-    '\tcurl --version > /dev/null\n' +
-    '\tif [ $? -eq 0 ]\n' +
-    '\tthen\n' +
-    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
-    '\tfi\n' +
-    'fi\n' +
-    'exit 0'
-]
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
-  '-c',
-  'wget --version > /dev/null\n' +
-    'if [ $? -eq 0 ]\n' +
-    'then\n' +
-    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
-    'else\n' +
-    '\tcurl --version > /dev/null\n' +
-    '\tif [ $? -eq 0 ]\n' +
-    '\tthen\n' +
-    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
-    '\tfi\n' +
-    'fi\n' +
-    'exit 0'
-]
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
-  '-c',
-  'wget --version > /dev/null\n' +
-    'if [ $? -eq 0 ]\n' +
-    'then\n' +
-    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
-    'else\n' +
-    '\tcurl --version > /dev/null\n' +
-    '\tif [ $? -eq 0 ]\n' +
-    '\tthen\n' +
-    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
-    '\tfi\n' +
-    'fi\n' +
-    'exit 0'
-]
-New EH opened, aborting shutdown
-[23:01:24] New EH opened, aborting shutdown

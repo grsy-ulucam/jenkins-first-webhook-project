@@ -45,3 +45,75 @@ https://github.com/grsy-ulucam/jenkins-first-webhook-project.git
 git add .
 git commit -m '24.02.2023'
 git push
+git status
+git add .
+git commit -m 'second'
+git push 
+git add .
+git commit -m 'third'
+git push 
+git add .
+git commit 'the end'
+git commit -m 'the end' 
+git push 
+git add .
+git commit -m 'the end'
+git push 
+git add .
+git commit -m '02:31'
+git status
+git checkout grsy
+git commit -m '02:32'
+git commit -m '02:33'
+git push
+git init
+git add .
+git commit -m 'the end'
+git push 
+git add .
+git commit -m '03:00'
+git push
+git init
+git add .
+git commit -m 'first'
+git push
+cd jenkins-first-webhook-project
+git add .
+git commit -m '.....'
+git push
+git brach -M
+git branch -M
+git branch 
+git checkout master 
+git add .
+git commit -m 'heyyyy'
+git checkout master
+git push
+git add . 
+git commit -m 'byyyy'
+git push 
+git add . 
+git commit -m 'the end 2'
+git push 
+git add .
+git commit -m 'time is :17:22'
+git push 
+git add .
+git commit -m 'time is 17:26'
+git push
+git add .
+git commit -m 'time is 17:32'
+git push 
+git add .
+git commit -m 'time is 18:00)
+
+git push
+clear
+git add .
+git commit -m 'time is:18:07'
+git push 
+git add .
+git commit -m 'time is 18:10)
+git add .
+git commit -m 'time is 18:11'
+git push

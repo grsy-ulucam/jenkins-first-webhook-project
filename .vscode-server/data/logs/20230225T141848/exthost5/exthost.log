@@ -1,0 +1,10 @@
+2023-02-25 14:57:03.645 [info] Extension host with pid 31832 started
+2023-02-25 14:57:03.931 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-02-25 14:57:03.933 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-02-25 14:57:04.246 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-02-25 14:57:04.246 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-02-25 14:57:04.677 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-02-25 14:57:04.678 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-02-25 14:57:04.679 [info] Eager extensions activated
+2023-02-25 14:59:07.033 [info] Extension host terminating: received terminate message from renderer
+2023-02-25 14:59:07.053 [info] Extension host with pid 31832 exiting with code 0
